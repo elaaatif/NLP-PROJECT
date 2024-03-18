@@ -17,7 +17,7 @@ Assessment of model performance using standard evaluation metrics.
 + Pandas
 + NumPy
 + Transformers library (Hugging Face)
-+ TensorFlow or PyTorch (depending on the backend of the transformer model)
++ TensorFlow 
 + scikit-learn
 + nltk
 + BeautifulSoup (for HTML tag removal)
@@ -27,7 +27,8 @@ Assessment of model performance using standard evaluation metrics.
 Ensure the availability of tweet data in the required format (e.g., Excel files) and execute the create_tweet_pairs function to generate tweet pairs with appropriate labels.
 ### Data Preprocessing: 
 Clean and preprocess tweet text using the provided functions for lowercase conversion, punctuation removal, and HTML tag removal.
-### Model Training: Train the model using the provided script, specifying the desired transformer model and training parameters.
+### Model Training: 
+Train the model using the provided script, specifying the desired transformer model and training parameters.
 ### Evaluation: 
 Evaluate the trained model using standard evaluation metrics such as accuracy, precision, recall, and F1 score.
 Model Deployment
