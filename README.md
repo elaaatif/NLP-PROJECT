@@ -21,7 +21,7 @@ Assessment of model performance using standard evaluation metrics.
 + scikit-learn
 + nltk
 + BeautifulSoup (for HTML tag removal)
-+ 
+  
 ## Usage
 ### Data Preparation: 
 Ensure the availability of tweet data in the required format (e.g., Excel files) and execute the create_tweet_pairs function to generate tweet pairs with appropriate labels.
